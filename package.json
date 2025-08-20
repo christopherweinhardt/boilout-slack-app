@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node --env-file=.env dist/index.js"
+  },
   "devDependencies": {
     "@types/node": "^24.3.0",
     "typescript": "^5.9.2"
