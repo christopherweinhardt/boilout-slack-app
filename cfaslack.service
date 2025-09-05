@@ -1,0 +1,14 @@
+[Unit]
+Description=CFA SLACK
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3002
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/servers/boilout-slack-app/
+ExecStart=/home/ubuntu/.nvm/versions/node/v22.15.0/bin/npm run start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

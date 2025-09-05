@@ -1,0 +1,45 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Actions"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Submit Boil Out",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "create_task"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Add Fryer",
+						"emoji": true
+					},
+					"value": "create_project"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Edit Fryer",
+						"emoji": true
+					},
+					"value": "help"
+				}
+			]
+		}
+	]
+}
